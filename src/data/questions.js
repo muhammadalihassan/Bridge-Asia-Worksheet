@@ -1,74 +1,74 @@
 export const questions = [
   {
     id: 1,
-    question: "What is the capital of France?",
-    options: ["London", "Berlin", "Paris", "Madrid"],
-    correct: 2
+    question: "19 rounded off to nearest 10 is..",
+    options: ["10", "20", "25", "30"],
+    correct: 1
   },
   {
     id: 2,
-    question: "Which planet is known as the Red Planet?",
-    options: ["Venus", "Mars", "Jupiter", "Saturn"],
-    correct: 1
+    question: "23 rounded off to nearest 10 is..",
+    options: ["20", "25", "30", "35"],
+    correct: 0
   },
   {
     id: 3,
-    question: "What is 2 + 2?",
-    options: ["3", "4", "5", "6"],
-    correct: 1
+    question: "47 rounded off to nearest 10 is..",
+    options: ["40", "45", "50", "55"],
+    correct: 2
   },
   {
     id: 4,
-    question: "Who wrote 'Romeo and Juliet'?",
-    options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+    question: "34 rounded off to nearest 10 is..",
+    options: ["25", "30", "35", "40"],
     correct: 1
   },
   {
     id: 5,
-    question: "What is the largest ocean on Earth?",
-    options: ["Atlantic", "Indian", "Arctic", "Pacific"],
-    correct: 3
+    question: "56 rounded off to nearest 10 is..",
+    options: ["50", "55", "60", "65"],
+    correct: 2
   },
   {
     id: 6,
-    question: "Which gas do plants absorb from the atmosphere?",
-    options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    question: "82 rounded off to nearest 10 is..",
+    options: ["75", "80", "85", "90"],
     correct: 1
   },
   {
     id: 7,
-    question: "What is the smallest prime number?",
-    options: ["0", "1", "2", "3"],
+    question: "15 rounded off to nearest 10 is..",
+    options: ["10", "15", "20", "25"],
     correct: 2
   },
   {
     id: 8,
-    question: "Which continent is the largest?",
-    options: ["Africa", "Asia", "North America", "Europe"],
+    question: "73 rounded off to nearest 10 is..",
+    options: ["65", "70", "75", "80"],
     correct: 1
   },
   {
     id: 9,
-    question: "What is the chemical symbol for gold?",
-    options: ["Go", "Gd", "Au", "Ag"],
+    question: "28 rounded off to nearest 10 is..",
+    options: ["20", "25", "30", "35"],
     correct: 2
   },
   {
     id: 10,
-    question: "How many sides does a hexagon have?",
-    options: ["5", "6", "7", "8"],
+    question: "91 rounded off to nearest 10 is..",
+    options: ["85", "90", "95", "100"],
     correct: 1
   },
   {
     id: 11,
-    question: "Which year did World War II end?",
-    options: ["1944", "1945", "1946", "1947"],
+    question: "64 rounded off to nearest 10 is..",
+    options: ["55", "60", "65", "70"],
     correct: 1
   },
   {
     id: 12,
-    question: "What is the fastest land animal?",
-    options: ["Lion", "Cheetah", "Leopard", "Tiger"],
-    correct: 1
+    question: "37 rounded off to nearest 10 is..",
+    options: ["30", "35", "40", "45"],
+    correct: 2
   }
 ];
