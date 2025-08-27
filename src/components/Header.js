@@ -12,9 +12,27 @@ const Header = () => {
         mb: 3
       }}
     >
-      <Toolbar sx={{ justifyContent: 'center', py: 2 }}>
-        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-          <Quiz sx={{ fontSize: 40, color: 'white' }} />
+      <Toolbar 
+        sx={{ 
+          justifyContent: 'center', 
+          py: { xs: 1, sm: 2 },
+          px: { xs: 1, sm: 3 },
+          minHeight: { xs: '56px', sm: '64px' }
+        }}
+      >
+        <Box sx={{ 
+          display: 'flex', 
+          alignItems: 'center', 
+          gap: { xs: 1, sm: 2 },
+          textAlign: 'center',
+          flexWrap: 'wrap',
+          justifyContent: 'center'
+        }}>
+          <Quiz sx={{ 
+            fontSize: { xs: 28, sm: 35, md: 40 }, 
+            color: 'white',
+            flexShrink: 0
+          }} />
           <Typography 
             variant="h3" 
             component="h1" 
@@ -22,7 +40,16 @@ const Header = () => {
               fontWeight: 'bold',
               color: 'white',
               textShadow: '2px 2px 4px rgba(0,0,0,0.3)',
-              letterSpacing: '1px'
+              letterSpacing: { xs: '0.5px', sm: '1px' },
+              fontSize: { 
+                xs: '1.5rem',    // 24px on mobile
+                sm: '2rem',      // 32px on small tablets
+                md: '2.5rem',    // 40px on medium screens
+                lg: '3rem'       // 48px on large screens
+              },
+              lineHeight: 1.2,
+              wordBreak: 'break-word',
+              hyphens: 'auto'
             }}
           >
             Rounding Off to Nearest 10
