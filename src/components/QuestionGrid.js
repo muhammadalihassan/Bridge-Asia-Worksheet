@@ -8,7 +8,7 @@ const QuestionGrid = ({ questions, selectedAnswers, onAnswerSelect, incorrectAns
   const rightColumnQuestions = questions.slice(6, 12);
 
   return (
-    <Container maxWidth="xl" sx={{ px: 2 }}>
+    <Container maxWidth="xl" sx={{ px: { xs: 1, sm: 2, md: 3 } }}>
       <Box sx={{ mb: 3, textAlign: 'center' }}>
         <Typography 
           variant="h4" 
@@ -31,13 +31,14 @@ const QuestionGrid = ({ questions, selectedAnswers, onAnswerSelect, incorrectAns
         </Typography>
       </Box>
       
-      <Grid container spacing={4}>
-        <Grid item xs={12} md={6}>
+      <Grid container spacing={{ xs: 2, sm: 3, md: 4, lg: 6 }} justifyContent="center">
+        <Grid item xs={12} md={6} lg={6} xl={6}>
           <Box sx={{ 
-            p: 2, 
+            p: { xs: 2, sm: 3, md: 3, lg: 4 }, 
             borderRadius: 3,
             background: 'linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%)',
-            border: '1px solid #e3f2fd'
+            border: '1px solid #e3f2fd',
+            height: 'fit-content'
           }}>
             <Typography 
               variant="h6" 
@@ -64,12 +65,13 @@ const QuestionGrid = ({ questions, selectedAnswers, onAnswerSelect, incorrectAns
           </Box>
         </Grid>
         
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={6} lg={6} xl={6}>
           <Box sx={{ 
-            p: 2, 
+            p: { xs: 2, sm: 3, md: 3, lg: 4 }, 
             borderRadius: 3,
             background: 'linear-gradient(135deg, #fff8f0 0%, #ffe8d6 100%)',
-            border: '1px solid #ffe0b2'
+            border: '1px solid #ffe0b2',
+            height: 'fit-content'
           }}>
             <Typography 
               variant="h6" 
